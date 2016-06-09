@@ -33,10 +33,11 @@ Partial Class About
         '
         Me.label4.Location = New System.Drawing.Point(14, 145)
         Me.label4.Name = "label4"
-        Me.label4.Size = New System.Drawing.Size(273, 73)
+        Me.label4.Size = New System.Drawing.Size(273, 88)
         Me.label4.TabIndex = 7
         Me.label4.Text = "11500114118 - Tanmoy Pal"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"11500114119 - Tasmia Javed"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"11500114120 - Tathagat Bisw"& _ 
-    "as"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"11500114121 - Trisha Bhaduri "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"11500114122 - Uday Pratap"
+    "as"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"11500114121 - Trisha Bhaduri "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"11500114122 - Uday Pratap"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"11500114124 - Md. "& _ 
+    "Abdul Halim Gazi"
         '
         'label3
         '
@@ -70,7 +71,7 @@ Partial Class About
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(301, 225)
+        Me.ClientSize = New System.Drawing.Size(301, 237)
         Me.Controls.Add(Me.label4)
         Me.Controls.Add(Me.label3)
         Me.Controls.Add(Me.label2)
