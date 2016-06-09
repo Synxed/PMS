@@ -15,9 +15,7 @@ namespace PMS
         {
             try
             {
-                using (
-                    var connection =
-                        new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"Database.accdb\""))
+                using (var connection = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"Database.accdb\""))
                 {
                     connection.Open();
                     using (
@@ -118,9 +116,7 @@ namespace PMS
         {
             try
             {
-                using (
-                    var connection =
-                        new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"Database.accdb\""))
+                using (var connection =new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"Database.accdb\""))
                 {
                     var currentAssignedResource = 0;
                     connection.Open();
@@ -135,11 +131,7 @@ namespace PMS
                         }
                     }
 
-                    using (
-                        var updateCommand =
-                            new OleDbCommand(
-                                "UPDATE Projects SET ResourceAssigned = @resource WHERE ProjectName = @name", connection)
-                        )
+                    using (var updateCommand =new OleDbCommand("UPDATE Projects SET ResourceAssigned = @resource WHERE ProjectName = @name", connection))
                     {
                         updateCommand.Parameters.AddWithValue("@resource",
                             currentAssignedResource + (int) ResourceNumericBox.Value);
